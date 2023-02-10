@@ -29,7 +29,7 @@ const speakers = [
   {
     topic: 'Featured Speakers',
     name: 'Sohyeong Noh',
-    image: 'images/speaker_03.png',
+    image: 'images/speaker_01.png',
     roles: 'Director of Art Centre Nabi and a board member of CC Korea',
     achievements: 'As the main venue of new media art production in Korea, Nabi promotes cross-disciplinary collaboration, humanities, and the arts',
 
@@ -37,7 +37,7 @@ const speakers = [
   {
     topic: 'Featured Speakers',
     name: 'Sohyeong Noh',
-    image: 'images/speaker_03.png',
+    image: 'images/speaker_01.png',
     roles: 'Director of Art Centre Nabi and a board member of CC Korea',
     achievements: 'As the main venue of new media art production in Korea, Nabi promotes cross-disciplinary collaboration, humanities, and the arts',
 
