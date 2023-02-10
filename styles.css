@@ -1,0 +1,907 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+}
+
+html,
+body {
+  font-family: 'Lato', sans-serif;
+}
+
+.moreFunc,
+.dskNav1,
+.navList {
+  display: none;
+}
+
+.firstpageCover nav {
+  padding-top: -20px;
+}
+
+.hamburger .line1,
+.line2,
+.line3 {
+  border: 2px solid black;
+  background-color: rgb(99, 93, 93);
+  padding: 2px;
+  margin-bottom: 7px;
+  width: 13%;
+}
+
+.hamburger img {
+  color: black;
+}
+
+.navList {
+  background-color: #ec5342c8;
+  color: #fff;
+  width: 100%;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  position: fixed;
+  backdrop-filter: blur(7px);
+  padding: 25px 40px;
+  line-height: 60px;
+  font-size: 35px;
+  font-weight: 700;
+}
+
+.navList a {
+  text-decoration: none;
+  color: #272a31;
+}
+
+.firstpageCover {
+  background-image: url(images/mobile-bg.png);
+  background-size: contain;
+  width: 100%;
+  overflow: hidden;
+  padding: 24px;
+}
+
+.closeBtn {
+  cursor: pointer;
+}
+
+.landingPage {
+  width: 100%;
+}
+
+.image-Letter {
+  -webkit-background-clip: text;
+  color: transparent;
+  font-weight: bolder;
+  background-image: url(./images/text-Bg.jpeg);
+}
+
+.heading {
+  padding: 54px 0 5px 0;
+  line-height: 20px;
+}
+
+.heading p {
+  color: red;
+  font-size: 25px;
+}
+
+.heading h1 {
+  font-size: 42px;
+  line-height: 44px;
+  font-weight: 900;
+  padding-top: 12px;
+}
+
+.headingPara1 {
+  background-color: rgb(243, 243, 243);
+  padding: 18px;
+  border: 4px solid white;
+  line-height: 24px;
+  font-weight: 600;
+  color: rgb(111, 110, 110);
+}
+
+.headingPara2 {
+  line-height: 34px;
+  color: rgb(75, 71, 71);
+}
+
+.headingPara2 h4 {
+  font-size: 34px;
+  font-weight: 900;
+  padding-top: 12px;
+}
+
+.headingPara2 p {
+  font-size: 15px;
+  font-weight: 600;
+  padding: 2px 0 50px 0;
+  color: rgb(111, 110, 110);
+}
+
+.mainProgram {
+  background-image: url(http://summit.cckorea.org/images/base/pattern_bg.png);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(43, 43, 45);
+  color: rgb(233, 233, 233);
+  padding: 24px;
+  gap: 20px;
+}
+
+.mainProgramP {
+  font-size: 30px;
+}
+
+.mainProgram hr {
+  width: 10%;
+  border: 1px solid rgb(247, 65, 37);
+}
+
+.mainProDiv img {
+  width: 10%;
+}
+
+.mainProDiv div {
+  background-color: rgba(76, 75, 75, 0.373);
+  padding: 15px;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  width: 100%;
+}
+
+.mainProDiv h4 {
+  color: rgb(247, 65, 37);
+  width: 10%;
+  font-size: 20px;
+}
+
+.mainProDiv p {
+  gap: 24px;
+  padding-left: 70px;
+}
+
+.join {
+  color: #fff;
+  background-color: rgb(247, 65, 37);
+  padding: 34px;
+  font-size: 20px;
+  margin-bottom: 22px;
+  cursor: pointer;
+}
+
+.speakers {
+  display: flex;
+  flex-direction: column;
+  padding: 54px 24px 24px 24px;
+  position: relative;
+}
+
+.speakersImage {
+  width: 80%;
+}
+
+.speakersImage1,
+.speakersImage2 {
+  width: 80%;
+}
+
+.speakers h3 {
+  font-size: 34px;
+}
+
+.speakers hr {
+  width: 10%;
+  margin: 5px 0;
+  border: 1px solid rgb(247, 65, 37);
+}
+
+.speaker1,
+.speaker2 {
+  display: flex;
+  gap: 2px;
+  padding: 20px 0;
+}
+
+.speakerContent {
+  width: 100%;
+  position: relative;
+}
+
+.speakerContent h4 {
+  font-size: 18px;
+  font-weight: 700;
+  padding-bottom: 12px;
+  color: rgba(44, 44, 44, 0.977);
+}
+
+.speakerContentP {
+  color: rgb(247, 65, 37);
+  font-weight: 600;
+  padding: 0 0 5px 0;
+  font-size: 12px;
+}
+
+.speakerContentP2 {
+  line-height: 12px;
+  padding-top: 4px;
+  font-size: 12px;
+}
+
+.arrow {
+  border: solid rgb(247, 65, 37);
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 4px;
+}
+
+.arrowDown {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+
+.moreBtn,
+.lessBtn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 10px;
+  font-size: 15px;
+  width: 100%;
+  border: 1px solid #d3d3d3;
+  padding: 24px 0;
+  background-color: #fff;
+  color: rgb(76, 76, 76);
+  margin-top: 60px;
+}
+
+.aboutContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.aboutPara1 {
+  background-color: #fff;
+  padding: 18px;
+  margin: 24px 0;
+  border: 2px solid rgb(204, 200, 200);
+  font-size: 16px;
+  line-height: 40px;
+  font-weight: 600;
+  color: rgb(75, 71, 71);
+  text-align: center;
+}
+
+.aboutPara2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  font-size: 15px;
+  line-height: 30px;
+  width: 90%;
+}
+
+.aboutPara2 a {
+  color: black;
+  font-weight: 700;
+}
+
+.aboutLogo {
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.aboutLogo-P1,
+.footerParaP {
+  font-size: 28px;
+  font-weight: 700;
+  padding-top: 12px;
+  color: rgb(75, 71, 71);
+}
+
+.aboutLogo hr {
+  width: 5%;
+  margin: 14px;
+  color: #ec5242;
+  border: 1px solid #ec5242;
+}
+
+.aboutLogo-P2,
+.footerPar {
+  margin: 24px 0;
+  font-size: 16px;
+  line-height: 28px;
+  font-weight: 600;
+  color: rgb(107, 104, 104);
+  text-align: center;
+}
+
+.footerParaP {
+  font-size: 22px;
+}
+
+.logoImg {
+  border: 2px solid rgb(184, 182, 182);
+  width: 100%;
+  padding: 44px 0 50px 0;
+}
+
+.logoImg p {
+  color: rgb(247, 65, 37);
+  font-weight: 900;
+  line-height: 5px;
+}
+
+.footer {
+  margin: 0;
+  width: 100%;
+}
+
+.footerPara1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 24px 0;
+}
+
+.footerPara1 hr {
+  width: 5%;
+  margin-top: 3%;
+  border: 1px solid #ec5242;
+}
+
+footer .footerHr {
+  width: 100%;
+}
+
+.footerPar {
+  padding: 24px 24px 0 24px;
+}
+
+.footerPartner {
+  background-color: rgb(76, 76, 76);
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 24px 0 0 0;
+  padding: 24px 24px 24px 24px;
+  font-size: 34px;
+}
+
+.partnerLogo {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  text-align: center;
+  gap: 15px;
+  font-size: 22px;
+  padding-top: 34px;
+}
+
+.footerLogo {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  justify-content: center;
+  align-items: center;
+}
+
+.footerlogoImg img {
+  width: 40%;
+}
+
+.footerlogoImg {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  color: rgb(247, 65, 37);
+  font-weight: 900;
+  line-height: 15px;
+}
+
+.footerlogoImg p {
+  font-size: 12px;
+}
+
+.footerPartner hr {
+  width: 10%;
+  margin-top: 2%;
+  border: 1px solid rgb(247, 65, 37);
+}
+
+.lastPara {
+  font-size: 12px;
+  font-weight: 500;
+  color: rgb(76, 76, 76);
+}
+
+#aboutContainer {
+  background-image: url(images/about-bg.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 100%;
+  overflow: hidden;
+  padding: 24px;
+  background-color: #f3f1f1;
+}
+
+.aboutHeading {
+  padding: 54px 0 5px 0;
+  line-height: 30px;
+  font-size: 24px;
+}
+
+.aboutHeading p {
+  color: red;
+  font-size: 25px;
+}
+
+.aboutHeading h1 {
+  font-size: 42px;
+  line-height: 44px;
+  font-weight: 900;
+  padding-top: 12px;
+  color: #f03824;
+}
+
+.fSpeakers {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 44px 0;
+  font-size: 18px;
+}
+
+.fSpeakers hr {
+  width: 10%;
+  border: 1px solid rgb(247, 65, 37);
+  margin-top: 10px;
+}
+
+.desktopSpeakers {
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-items: center;
+  align-items: center;
+  gap: 5px;
+  padding: 0 24px 24px 24px;
+  position: relative;
+}
+
+.desktopSpeakers hr {
+  width: 10%;
+  margin: 5px 0;
+}
+
+.forex {
+  margin: 0 24px 0 24px;
+}
+
+.forexClass2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 200px;
+  margin: 5px auto;
+  background-color: #ec5242;
+  opacity: 0.9;
+  position: relative;
+  color: white;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.forexClass1::before {
+  content: '';
+  position: absolute;
+  background: url(./images/learn-Forex1.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 200px;
+  opacity: 0.3;
+}
+
+.forexClass1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 200px;
+  margin: 15px auto;
+  background-color: #ec5242;
+  opacity: 0.9;
+  position: relative;
+  color: white;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.forexClass2::before {
+  content: '';
+  position: absolute;
+  background: url(./images/learn-Forex1.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 200px;
+  opacity: 0.3;
+}
+
+@media screen and (min-width: 768px) {
+  .fa-brands {
+    color: white;
+  }
+
+  .dskNav1 {
+    display: block;
+    position: relative;
+    font-weight: 700;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+  .dskNavUl1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    background-color: #545454;
+    color: #d3d3d3;
+    padding: 20px 150px 20px 20px;
+    gap: 34px;
+  }
+
+  .dskNavUl1 a {
+    text-decoration: none;
+    color: white;
+  }
+
+  .dskNav2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #fff;
+  }
+
+  .classes {
+    border: 4px solid rgb(246, 85, 85);
+    padding: 5px 15px;
+  }
+
+  .dskNavUl2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: #7b7b7b;
+    font-size: 18px;
+    padding-right: 150px;
+  }
+
+  .dskNavUl2 li {
+    margin-left: 22px;
+  }
+
+  .dskNavUl2 a {
+    text-decoration: none;
+    color: rgb(126, 126, 126);
+  }
+
+  .logoImg {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: none;
+    padding: 10px 20px 15px 60px;
+  }
+
+  .logoImg2 {
+    border: 2px solid #dbd9d9;
+  }
+
+  .aboutLogo {
+    background-color: #fff;
+  }
+
+  .footerContainerLogo {
+    background-color: #fff;
+    margin: 0;
+    padding: 0;
+  }
+
+  .logoImg img {
+    width: 30%;
+  }
+
+  .logoImg p {
+    line-height: 30px;
+  }
+
+  .campaign {
+    border: 5px solid #ec5242;
+    width: 50%;
+    padding: 15px;
+  }
+
+  .firstpageCover {
+    background-image: url(images/dsk-bg.png);
+    background-size: cover;
+    width: 100%;
+    overflow: hidden;
+    padding: 24px;
+  }
+
+  .landingPage {
+    display: flex;
+    flex-direction: column;
+    padding-top: 150px;
+    align-items: center;
+    align-content: center;
+  }
+
+  .heading {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .heading p {
+    font-size: 44px;
+    width: 90%;
+  }
+
+  .heading h1 {
+    font-size: 74px;
+    width: 80%;
+    line-height: 84px;
+  }
+
+  .headingPara1 {
+    margin: 16px 0;
+    width: 70%;
+  }
+
+  .headingPara1 p {
+    font-size: 18px;
+    padding: 7px;
+  }
+
+  .headingPara2 {
+    padding-bottom: 170px;
+  }
+
+  .headingPara2 h4 {
+    font-size: 46px;
+  }
+
+  .headingPara2 p {
+    font-size: 26px;
+    padding: 24px 0;
+  }
+
+  .mainProgram hr {
+    width: 5%;
+  }
+
+  .mainProDiv {
+    padding: 20px;
+    margin-bottom: 10px;
+    gap: 20px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  }
+
+  .mainProDiv div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .mainProDiv img {
+    width: 35%;
+  }
+
+  .mainProDiv p {
+    gap: 24px;
+    padding-left: 0;
+    font-size: 12px;
+    font-weight: 500;
+  }
+
+  .mainProDiv h4 {
+    width: 100%;
+    font-size: 20px;
+  }
+
+  .moreFunc {
+    display: block;
+  }
+
+  .speakersContainer {
+    gap: 20px;
+    width: 100%;
+  }
+
+  .speaker1 {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .speakersContainer .moreFunc {
+    width: 100%;
+  }
+
+  .desktopSpeakers {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+    gap: 20px;
+    padding: 0 54px 24px 54px;
+    position: relative;
+    width: 100%;
+  }
+
+  .desktopSpeakers hr {
+    width: 10%;
+    margin: 5px 0;
+  }
+
+  .desktopSpeakers .speakershr {
+    width: 5%;
+    border: 1px solid rgb(247, 65, 37);
+  }
+
+  .fSpeakers {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 44px 0;
+    font-size: 18px;
+  }
+
+  .fSpeakers hr {
+    width: 5%;
+    border: 1px solid rgb(247, 65, 37);
+  }
+
+  .speakerContent {
+    padding-top: 12px;
+  }
+
+  .speakerContent h4 {
+    font-size: 18px;
+  }
+
+  .speakerContent p {
+    font-size: 12px;
+  }
+
+  .speakerContentP2 {
+    line-height: 16px;
+  }
+
+  .partnerLogo {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .footerLogo {
+    padding-bottom: 24px;
+  }
+
+  .aboutContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-top: 150px;
+  }
+
+  .footerPar {
+    font-size: 12px;
+    padding: 2px;
+  }
+
+  .forexClass {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    gap: 22px;
+  }
+
+  .forexClass2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 200px;
+    margin: 5px auto;
+    background-color: #ec5242;
+    opacity: 0.9;
+    position: relative;
+    color: white;
+    font-size: 24px;
+    font-weight: 700;
+  }
+
+  .forexClass1::before {
+    content: '';
+    position: absolute;
+    background: url(./images/learn-Forex1.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 200px;
+    opacity: 0.3;
+  }
+
+  .forexClass1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 200px;
+    margin: 15px auto;
+    background-color: #ec5242;
+    opacity: 0.9;
+    position: relative;
+    color: white;
+    font-size: 24px;
+    font-weight: 700;
+  }
+
+  .forexClass2::before {
+    content: '';
+    position: absolute;
+    background: url(./images/learn-Forex1.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 200px;
+    opacity: 0.3;
+  }
+
+  .forex img {
+    width: 50%;
+  }
+
+  .aboutL img {
+    width: 10%;
+  }
+
+  .aboutHeading h1 {
+    width: 100%;
+  }
+
+  .firstpageCover nav,
+  .hamburger,
+  #hideMoreBtn,
+  .lessBtn,
+  .speakers,
+  .navList {
+    display: none;
+  }
+}
