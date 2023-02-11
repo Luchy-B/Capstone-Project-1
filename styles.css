@@ -34,7 +34,7 @@ body {
   background-color: rgb(99, 93, 93);
   padding: 2px;
   margin-bottom: 7px;
-  width: 13%;
+  /* width: 13%; */
 }
 
 .hamburger img {
@@ -59,6 +59,11 @@ body {
 .navList a {
   text-decoration: none;
   color: #272a31;
+}
+
+.hamburger button {
+  width: 15%;
+  border: none;
 }
 
 .firstpageCover {
