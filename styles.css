@@ -99,7 +99,7 @@ body {
   line-height: 44px;
   font-weight: 900;
   padding-top: 12px;
-  font-family: 'COCOGOOSE', sans-serif;                                               
+  font-family: 'COCOGOOSE', sans-serif;
 }
 
 .headingPara1 {
@@ -462,7 +462,7 @@ footer .footerHr {
   font-weight: 800;
   padding-top: 12px;
   color: #f03824;
-  font-family: 'COCOGOOSE', sans-serif; 
+  font-family: 'COCOGOOSE', sans-serif;
 }
 
 .fSpeakers {
@@ -616,7 +616,7 @@ footer .footerHr {
     flex-direction: column;
     align-items: center;
     border: none;
-    padding: 10px 20px 15px 0px;
+    padding: 10px 20px 15px 0;
   }
 
   .aboutLogo {
