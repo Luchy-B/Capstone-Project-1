@@ -14,8 +14,13 @@ body {
 
 .moreFunc,
 .dskNav1,
-.navList {
+.navList,
+.footer {
   display: none;
+}
+
+.aboutFooter {
+  display: block;
 }
 
 .firstpageCover nav {
@@ -377,7 +382,6 @@ footer .footerHr {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 24px 0 0 0;
   padding: 24px 24px 24px 24px;
   font-size: 34px;
 }
@@ -397,6 +401,7 @@ footer .footerHr {
   gap: 5px;
   justify-content: center;
   align-items: center;
+  padding: 24px 0;
 }
 
 .footerlogoImg img {
@@ -488,7 +493,7 @@ footer .footerHr {
 }
 
 .forex {
-  margin: 0 24px 0 24px;
+  margin: 0 24px 24px 24px;
 }
 
 .forexClass2 {
@@ -610,10 +615,6 @@ footer .footerHr {
     align-items: center;
     border: none;
     padding: 10px 20px 15px 60px;
-  }
-
-  .logoImg2 {
-    border: 2px solid #dbd9d9;
   }
 
   .aboutLogo {
@@ -760,6 +761,7 @@ footer .footerHr {
     padding: 0 54px 24px 54px;
     position: relative;
     width: 100%;
+    background-color: #f3f1f1;
   }
 
   .desktopSpeakers hr {
@@ -778,6 +780,7 @@ footer .footerHr {
     align-items: center;
     padding: 44px 0;
     font-size: 18px;
+    background-color: #f3f1f1;
   }
 
   .fSpeakers hr {
@@ -802,12 +805,44 @@ footer .footerHr {
   }
 
   .partnerLogo {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    display: flex;
+    flex-direction: row;
+    font-size: 30px;
+    font-weight: 900;
+    gap: 40px;
+  }
+
+  .logoImg2 {
+    width: 50%;
+    padding: 24px 0;
+    border: 2px solid #dbd9d9;
   }
 
   .footerLogo {
-    padding-bottom: 24px;
+    padding: 24px 0;
+    gap: 34px;
+    background-color: #f3f1f1;
+  }
+
+  .lastPara {
+    padding: 24px 0;
+    gap: 34px;
+    font-weight: 700;
+  }
+
+  .abtFooterLogo {
+    margin-top: 48px;
+    padding: 24px 0;
+    gap: 34px;
+    background-color: #272a31;
+  }
+
+  .abtLastPara {
+    padding: 24px 0;
+    gap: 34px;
+    color: white;
+    line-height: 18px;
+    font-weight: 600;
   }
 
   .aboutContent {
@@ -816,6 +851,10 @@ footer .footerHr {
     align-items: center;
     text-align: center;
     padding-top: 150px;
+  }
+
+  .footer {
+    display: block;
   }
 
   .footerPar {
@@ -894,6 +933,14 @@ footer .footerHr {
 
   .aboutHeading h1 {
     width: 100%;
+  }
+
+  .footerPartner hr {
+    width: 4%;
+  }
+
+  .aboutFooter .footerPartner {
+    display: none;
   }
 
   .firstpageCover nav,
